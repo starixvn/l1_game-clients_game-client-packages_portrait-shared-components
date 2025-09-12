@@ -139,8 +139,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 828,
-      "height": 1107
+      "width": 786,
+      "height": 1398
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1059,7 +1059,7 @@
       "b": 0,
       "a": 255
     },
-    "_string": "HUMBSGSG \nSSSSSSSSAA",
+    "_string": "OK",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 21,
@@ -1480,8 +1480,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 828,
-      "height": 1107
+      "width": 786,
+      "height": 1398
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1549,6 +1549,7 @@
       "__id__": 13
     },
     "autoShowWhenEnable": true,
+    "playClickWhenHide": false,
     "containerBackground": {
       "__id__": 59
     },
