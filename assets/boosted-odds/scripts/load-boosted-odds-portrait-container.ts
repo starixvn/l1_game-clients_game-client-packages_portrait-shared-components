@@ -8,8 +8,8 @@ const { ccclass, property } = _decorator;
 const { handle, render } = Observer;
 const { Notification } = gc;
 
-@ccclass("LoadBoostedOddsDirectContainerPrefab")
-export default class LoadBoostedOddsDirectContainerPrefab extends LoadBoostedOddsContainerPrefab {
+@ccclass("LoadBoostedOddsPortraitContainer")
+export default class LoadBoostedOddsPortraitContainer extends LoadBoostedOddsContainerPrefab {
     @property(Node)
     iconContainer: Node = null;
 
@@ -19,8 +19,8 @@ export default class LoadBoostedOddsDirectContainerPrefab extends LoadBoostedOdd
     };
 
     async getPrefabs(prefabName: string) {
-        const { rootFolder } = LoadBoostedOddsDirectContainerPrefab.BundleConstants;
-        const prefabPath = LoadBoostedOddsDirectContainerPrefab.BundleConstants.sharePortraitDirectBundle;
+        const { rootFolder } = LoadBoostedOddsPortraitContainer.BundleConstants;
+        const prefabPath = LoadBoostedOddsPortraitContainer.BundleConstants.sharePortraitDirectBundle;
 
         return bundleManager.loadAssetsFromBundle<Prefab>(prefabPath, `${rootFolder}/${prefabName}`, Prefab, null);
     }
